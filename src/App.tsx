@@ -1,9 +1,14 @@
 import React from 'react';
-import './App.css';
+
+import GlobalStyles from './styles/GlobalStyles'
 
 function App() {
   return (
-    <h1>Discopy</h1>
+    <>
+      <h1>Discopy</h1>
+
+      <GlobalStyles />
+    </>
   );
 }
 
