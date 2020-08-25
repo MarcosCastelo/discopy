@@ -10,6 +10,7 @@ export const Button = styled.button<Props>`
 
     width: 48px;
     height: 48px;
+    border-radius: 50%;
 
     margin-bottom: 8px;
 
@@ -18,4 +19,21 @@ export const Button = styled.button<Props>`
 
     cursor: pointer;
     position: relative;
+
+    &::before {
+
+    }
+
+    &::after {
+
+    }
+    transition: border-radius .2s, background-color .2s;
+
+    &.active, &:hover {
+        border-radius: 16px;
+        background-color: ${(props) =>
+            props.isHome ? 'var(--rocketseat)' : 'var(--discord)'
+        };
+    }
+
 `;
