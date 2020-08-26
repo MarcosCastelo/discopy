@@ -6,7 +6,13 @@ import ChannelMessage from '../ChannelMessage';
 const ChannelData: React.FC = () => {
   return (
       <Container>
-          <Messages />
+          <Messages>
+            <ChannelMessage 
+              author="Marcos Castelo"
+              date = "02/07/2020"
+              content = "Hoje é meu aniversário!"
+            />
+          </Messages>
 
           <InputWrapper>
             <Input type="text" placeholder="Conversar em #geral"/>
