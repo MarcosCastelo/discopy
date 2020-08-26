@@ -29,6 +29,8 @@ export const Avatar = styled.div`
     border-radius: 50%;
 
     &.bot {
+        width: 40px;
+        height: 40px;
         background-color: var(--mention-detail);
     }
 `;
