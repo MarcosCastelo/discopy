@@ -8,4 +8,6 @@ const UserInfo: React.FC = () => {
 
         </Container>
     );
-    export default UserInfo;
+}
+
+export default UserInfo;
