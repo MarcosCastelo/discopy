@@ -20,6 +20,11 @@ export const Button = styled.button<Props>`
     cursor: pointer;
     position: relative;
 
+    > img {
+        width: 50px;
+        height: 50x;
+    }
+
     &::before {
         width: 9px;
         height: 9px;
