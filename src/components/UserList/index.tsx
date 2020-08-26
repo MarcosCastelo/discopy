@@ -1,9 +1,13 @@
 import React from 'react';
 
-import { Container } from './styles';
+import { Container, Role, User, Avatar } from './styles';
 
+interface UserProps {
+  nickname: string;
+  isBot?: boolean;
+}
 
-const UserRow: React.FC = () => {
+const UserRow: React.FC<UserProps> = ({ nickname, isBot }) => {
   return (
     <User>
       <Avatar />
