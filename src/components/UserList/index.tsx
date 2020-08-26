@@ -2,6 +2,18 @@ import React from 'react';
 
 import { Container } from './styles';
 
+
+const UserRow: React.FC = () => {
+  return (
+    <User>
+      <Avatar />
+      <strong>{ nickname }</strong>
+
+      {isBot && <span>Bot</span>}
+    </User>
+  );
+}
+
 const UserList: React.FC = () => {
   return (
       <Container>
