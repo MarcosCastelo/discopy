@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { Container, Messages, InputWrapper, Input, InputIcon } from './styles';
+import ChannelMessage from '../ChannelMessage';
 
 const ChannelData: React.FC = () => {
   return (
