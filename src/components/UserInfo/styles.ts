@@ -64,6 +64,7 @@ export const MicIcon = styled(Mic)`
     
     &:hover {
         opacity: 1;
+        transition: opacity .2s;
     }
 `;
 
@@ -77,6 +78,7 @@ export const HeadphoneIcon = styled(Headset)`
     
     &:hover {
         opacity: 1;
+        transition: opacity .2s;
     }
 `;
 
@@ -90,5 +92,6 @@ export const SettingsIcon = styled(Settings)`
     
     &:hover {
         opacity: 1;
+        transition: opacity .2s;
     }
 `;

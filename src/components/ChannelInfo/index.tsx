@@ -6,9 +6,9 @@ const ChannelInfo: React.FC = () => {
   return (
       <Container>
           <HastagIcon />
-          <Title> chat-livre</Title>
+          <Title> comunicados</Title>
           <Separator />
-          <Description>Canal aberto para conversas</Description>
+          <Description>Canal para realizar comunicados importantes</Description>
       </Container>
   );
 }
